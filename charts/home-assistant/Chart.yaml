@@ -27,7 +27,7 @@ dependencies:
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
   - name: mariadb
-    version: 18.2.6
+    version: 19.0.3
     repository: https://charts.bitnami.com/bitnami
     condition: mariadb.enabled
   - name: influxdb
