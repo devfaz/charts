@@ -22,6 +22,14 @@ dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
     version: 4.5.2
+  - name: postgresql
+    version: 16.4.13
+    repository: https://charts.bitnami.com/bitnami
+    condition: postgresql.enabled
+  - name: mariadb
+    version: 20.3.1
+    repository: https://charts.bitnami.com/bitnami
+    condition: mariadb.enabled
   - name: influxdb
     version: 6.5.6
     repository: https://charts.bitnami.com/bitnami
