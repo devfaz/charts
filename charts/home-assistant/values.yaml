@@ -79,7 +79,7 @@ postgresql:
   enabled: false
   image:
     repository: bitnami/postgresql
-    tag: 17.3.0@sha256:f4379d23d4d73913b9742d58cd58d63831e03a5b336e2dde234597e054616d4c
+    tag: 17.4.0@sha256:198ed8a097d5ca8722cd64cef8c05ac99713c7ccdb3c22fa4726c0a95d4dde2c
   postgresqlUsername: home-assistant
   postgresqlPassword: home-assistant-pass
   postgresqlDatabase: home-assistant
